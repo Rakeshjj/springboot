@@ -14,7 +14,7 @@
 	<name>SpringBootCICD</name>
 	<description>WebsocketSpringboot</description>
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -48,6 +48,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>javaexpress-springboot-docker</finalName>
 	</build>
 	
 
