@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-alpine3.12
+FROM openjdk:17
 
 COPY target/BillingProject.jar .
 
