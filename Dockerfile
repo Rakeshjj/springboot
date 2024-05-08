@@ -1,7 +1,7 @@
-FROM openjdk:8
+FROM openjdk:21-jdk
 
 COPY target/Demo.jar .
 
-EXPOSE 8082
+EXPOSE 8080
 
 ENTRYPOINT [ "java","-jar","Demo.jar" ]
